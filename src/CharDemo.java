@@ -2,14 +2,17 @@ import java.util.Scanner;
 
 public class CharDemo {
     public static void main(String[] args) {
-        int x =10; //primitive in stack
-        /// byte ,short , int , long
+        int x =10;
+
+        // primitive datatype in stack (value type)
+        // byte ,short , int , long
         // float  , double
         // boolean
         // char
 
 
-        Scanner scanner = new Scanner(System.in); // reference (reference in stack and object in heap)
+        Scanner scanner = new Scanner(System.in);
+        // reference datatype (reference in stack and object in heap)
         // class
         // Arrays
         // enum
