@@ -26,5 +26,7 @@ public class ArrayDemo {
             System.out.println("Hello " + names[i]);
         }
 
+        String students [] = {"Ali" , "Dina" ,"Sara"};
+
     }
 }
