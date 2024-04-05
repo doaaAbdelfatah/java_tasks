@@ -23,7 +23,15 @@ public class XOGame {
             int r = scanner.nextInt(); // 0
             System.out.print("Column : ");
             int c = scanner.nextInt(); // 0
-            xo[r][c] = player;
+
+            //write in Array
+            // check empty space then write
+            if(xo[r][c] ==' ')
+                 xo[r][c] = player;
+            else{
+                System.out.println("It is not Empty please try another location");
+                continue;
+            }
 
             // check winner // call method
             boolean isWin = checkWinner(xo , player); // true , false
